@@ -11,6 +11,7 @@ const randomMessage = () => {
     let selection3 = container3[Math.floor(Math.random() * container3.length)];
     let selection4 = container4[Math.floor(Math.random() * container4.length)];
 
-        
+    //returns a message made up of random selections
+    return `${selection1} ${selection2} ${selection3} ${selection4}`;        
 }
 
